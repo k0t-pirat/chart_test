@@ -1,0 +1,18 @@
+.legend {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2C3033;
+}
+.legend-info {
+  display: flex;
+  justify-content: space-between;
+}
+.legend-list {
+  padding: 0;
+  list-style: none;
+}
+.legend-item {
+  display: flex;
+  flex-direction: column;
+}

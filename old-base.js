@@ -78,3 +78,57 @@ var chart1 = new Highcharts.Chart({
 //       pointInterval: 3600 * 1000 // one hour
 //   }]
 // });
+
+// var struct = [
+//   {
+//     id: 1,
+//     legend: `Apples`,
+//     data: [
+//       {
+//         type: 'from USA',
+//         values: [123, 321],
+//       },
+//       {
+//         type: 'from Greece',
+//         values: [456, 654],
+//       },
+//     ]
+//   },
+//   {
+//     id: 2,
+//     legend: `Oranges`,
+//     data: [
+//       {
+//         type: 'from USA',
+//         values: [789, 987],
+//       },
+//       {
+//         type: 'from Greece',
+//         values: [987, 789],
+//       },
+//     ]
+//   },
+// ];
+
+// var struct = [
+//   {
+//     legend: 'Apples',
+//     type: 'from USA',
+//     values: [123, 321],
+//   },
+//   {
+//     legend: 'Apples',
+//     type: 'from Greece',
+//     values: [456, 654],
+//   },
+//   {
+//     legend: 'Oranges',
+//     type: 'from USA',
+//     values: [123, 321],
+//   },
+//   {
+//     legend: 'Oranges',
+//     type: 'from Greece',
+//     values: [456, 654],
+//   },
+// ];

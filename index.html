@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <script src="highcharts.js"></script>
+    <link href="base.css" rel="stylesheet">
   </head>
   <body>
     <main style="display: flex; justify-content: space-between;">
-      <div id="base-container" style="flex-grow: 1; width: 80%">
-        <!-- <div id="container1" style="width:100%; height:400px;"></div>
-        <div id="container2" style="width:100%; height:400px;"></div>
-        <div id="container3" style="width:100%; height:400px;"></div> -->
-      </div>
-      <div id="legend" style="width:15%; height:400px; display: flex; flex-direction: column;">
-        <!-- <p id="legend1" data-legend-id="someId1">Apples</p>
-        <p id="legend2" data-legend-id="someId2">Bananas</p> -->
+      <div id="base-container" style="flex-grow: 1; width: 80%"></div>
+      <div class="legend">
+        <div class="legend-info">
+          <p>Участки</p>
+          <p>Индекс SOKRAT</p>
+        </div>
+        <ul id="legend-list" class="legend-list" style="width:15%; height:400px; display: flex; flex-direction: column;"></ul>
       </div>
     </main>
     <script src="base.js"></script>
