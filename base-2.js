@@ -26,6 +26,11 @@ fullPlots.forEach((plot) => {
     legend: {
       enabled: false
     },
+    title: {
+      text: plot.title,
+      align: 'left',
+      verticalAlign: 'bottom',
+    },
     series: series,
   });
   charts.push(chart);

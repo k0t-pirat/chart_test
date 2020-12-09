@@ -1,5 +1,6 @@
 const legends = window.legendsData.legends;
 const fullPlots = window.legendsData.fullPlots;
+console.log(window.legendsData);
 const charts = [];
 
 const baseContainer = document.querySelector('#base-container');
